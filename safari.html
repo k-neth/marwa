@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marwa Safaris - Best Safari & Holiday Deals in Kenya & Beyond</title>
+  <meta name="description" content="Marwa Safaris offers unforgettable safari experiences, beach holidays, and international trips with award-winning service and the best deals.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .hero-bg { background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1516026672322-bc914e925477?w=1920&h=1080&fit=crop'); background-size: cover; background-position: center; }
+    .tour-card { transition: transform 0.3s ease; }
+    .tour-card:hover { transform: translateY(-10px); }
+  </style>
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- Header & Navigation -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4 flex flex-wrap items-center justify-between">
+      <div class="flex items-center">
+        <h1 class="text-3xl font-bold text-amber-600">Marwa Safaris</h1>
+      </div>
+      <nav class="hidden md:flex space-x-8">
+        <a href="#" class="hover:text-amber-600 font-medium">Home</a>
+        <a href="#" class="hover:text-amber-600 font-medium">Kenya Safaris</a>
+        <a href="#" class="hover:text-amber-600 font-medium">Beach Holidays</a>
+        <a href="#" class="hover:text-amber-600 font-medium">International Trips</a>
+        <a href="#" class="hover:text-amber-600 font-medium">Team Building</a>
+        <a href="#" class="hover:text-amber-600 font-medium">About Us</a>
+        <a href="#" class="hover:text-amber-600 font-medium">Contact</a>
+      </nav>
+      <div class="flex items-center space-x-4">
+        <a href="#" class="bg-amber-600 text-white px-6 py-2 rounded-full hover:bg-amber-700">Book Now</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-bg text-white py-32">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-5xl md:text-6xl font-bold mb-6">Discover the Wild with Marwa Safaris</h2>
+      <p class="text-xl md:text-2xl mb-10">Award-winning safari & holiday experiences in Kenya, Tanzania & worldwide</p>
+      <div class="max-w-4xl mx-auto bg-white/90 text-gray-800 rounded-lg p-6 shadow-xl">
+        <form class="grid grid-cols-1 md:grid-cols-4 gap-4">
+          <input type="text" placeholder="Destination" class="px-4 py-3 rounded border">
+          <input type="date" placeholder="Check-in" class="px-4 py-3 rounded border">
+          <input type="date" placeholder="Check-out" class="px-4 py-3 rounded border">
+          <button type="submit" class="bg-amber-600 text-white py-3 rounded hover:bg-amber-700">Search Deals</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Tours -->
+  <section class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-12">Hot Safari & Holiday Deals</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Tour Card 1 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden tour-card">
+          <img src="https://images.unsplash.com/photo-1547471080-7bb87c7da958?w=800&h=600&fit=crop" alt="Masai Mara Safari" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-2xl font-bold mb-2">3 Days Masai Mara Safari</h3>
+            <p class="text-gray-600 mb-4">Experience the Great Migration, Big Five & stunning landscapes</p>
+            <div class="flex justify-between items-center">
+              <span class="text-3xl font-bold text-amber-600">KES 45,000</span>
+              <a href="#" class="bg-amber-600 text-white px-6 py-2 rounded hover:bg-amber-700">View Deal</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tour Card 2 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden tour-card">
+          <img src="https://images.unsplash.com/photo-1586094626830-7fd20296e67d?w=800&h=600&fit=crop" alt="Diani Beach" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-2xl font-bold mb-2">4 Days Diani Beach Escape</h3>
+            <p class="text-gray-600 mb-4">Relax on white sandy beaches with all-inclusive luxury</p>
+            <div class="flex justify-between items-center">
+              <span class="text-3xl font-bold text-amber-600">KES 38,000</span>
+              <a href="#" class="bg-amber-600 text-white px-6 py-2 rounded hover:bg-amber-700">View Deal</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tour Card 3 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden tour-card">
+          <img src="https://images.unsplash.com/photo-1569949520830-9ed5e0318ac7?w=800&h=600&fit=crop" alt="Dubai Trip" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-2xl font-bold mb-2">5 Days Dubai Adventure</h3>
+            <p class="text-gray-600 mb-4">Desert safari, Burj Khalifa & luxury shopping</p>
+            <div class="flex justify-between items-center">
+              <span class="text-3xl font-bold text-amber-600">KES 120,000</span>
+              <a href="#" class="bg-amber-600 text-white px-6 py-2 rounded hover:bg-amber-700">View Deal</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Destinations -->
+  <section class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-12">Popular Destinations</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="text-center">
+          <img src="https://images.unsplash.com/photo-1579459740733-4b2ea6f57624?w=400&h=400&fit=crop" alt="Masai Mara" class="rounded-full w-48 h-48 mx-auto object-cover shadow-lg">
+          <h4 class="mt-4 text-xl font-semibold">Masai Mara</h4>
+        </div>
+        <div class="text-center">
+          <img src="https://images.unsplash.com/photo-1582719200382-5119b5f2c0d0?w=400&h=400&fit=crop" alt="Amboseli" class="rounded-full w-48 h-48 mx-auto object-cover shadow-lg">
+          <h4 class="mt-4 text-xl font-semibold">Amboseli</h4>
+        </div>
+        <div class="text-center">
+          <img src="https://images.unsplash.com/photo-1580067565273-7e3eb868365c?w=400&h=400&fit=crop" alt="Tsavo" class="rounded-full w-48 h-48 mx-auto object-cover shadow-lg">
+          <h4 class="mt-4 text-xl font-semibold">Tsavo</h4>
+        </div>
+        <div class="text-center">
+          <img src="https://images.unsplash.com/photo-1555409275-1a21b13db9de?w=400&h=400&fit=crop" alt="Serengeti" class="rounded-full w-48 h-48 mx-auto object-cover shadow-lg">
+          <h4 class="mt-4 text-xl font-semibold">Serengeti</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="py-16 bg-amber-50">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-4xl font-bold mb-12">Why Choose Marwa Safaris?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div>
+          <i class="fas fa-award text-6xl text-amber-600 mb-4"></i>
+          <h3 class="text-2xl font-bold mb-3">Award Winning</h3>
+          <p>Multiple awards for best tour operator in East Africa</p>
+        </div>
+        <div>
+          <i class="fas fa-shield-alt text-6xl text-amber-600 mb-4"></i>
+          <h3 class="text-2xl font-bold mb-3">100% Safe & Secure</h3>
+          <p>Full financial protection & 24/7 support</p>
+        </div>
+        <div>
+          <i class="fas fa-dollar-sign text-6xl text-amber-600 mb-4"></i>
+          <h3 class="text-2xl font-bold mb-3">Best Price Guarantee</h3>
+          <p>We offer the most competitive rates</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-12">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div>
+          <h3 class="text-2xl font-bold text-amber-600 mb-4">Marwa Safaris</h3>
+          <p>Your trusted partner for unforgettable African adventures.</p>
+        </div>
+        <div>
+          <h4 class="text-xl font-semibold mb-4">Quick Links</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:text-amber-600">Kenya Safaris</a></li>
+            <li><a href="#" class="hover:text-amber-600">Beach Holidays</a></li>
+            <li><a href="#" class="hover:text-amber-600">International Trips</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-xl font-semibold mb-4">Contact Info (Placeholder)</h4>
+          <p>Email: info@marwasafaris.com</p>
+          <p>Phone: +254-XXX-XXXXXX</p>
+          <p>Address: Nairobi, Kenya</p>
+        </div>
+        <div>
+          <h4 class="text-xl font-semibold mb-4">Follow Us</h4>
+          <div class="flex space-x-4">
+            <a href="#" class="text-3xl hover:text-amber-600"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="text-3xl hover:text-amber-600"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-3xl hover:text-amber-600"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-10 border-t border-gray-700 pt-6">
+        <p>&copy; 2025 Marwa Safaris. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

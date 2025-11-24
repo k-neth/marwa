@@ -1,0 +1,21 @@
+
+        .logo-text {
+            font-family: 'Cinzel', serif;
+            letter-spacing: 4px;
+            background: linear-gradient(to right, #d4af37, #ffd700, #f9e79f);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 30px rgba(212, 175, 55, 0.3);
+        }
+        .card-hover {
+            transition: all 0.4s ease;
+            cursor: pointer;
+        }
+        .card-hover:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 20px 40px rgba(212, 175, 55, 0.15);
+        }
+        .social-icon:hover {
+            transform: scale(1.2);
+            opacity: 1;
+        }
