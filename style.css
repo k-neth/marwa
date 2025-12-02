@@ -1,21 +1,61 @@
 
-        .logo-text {
-            font-family: 'Cinzel', serif;
-            letter-spacing: 4px;
-            background: linear-gradient(to right, #d4af37, #ffd700, #f9e79f);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            text-shadow: 0 0 30px rgba(212, 175, 55, 0.3);
-        }
-        .card-hover {
-            transition: all 0.4s ease;
-            cursor: pointer;
-        }
-        .card-hover:hover {
-            transform: translateY(-12px);
-            box-shadow: 0 20px 40px rgba(212, 175, 55, 0.15);
-        }
-        .social-icon:hover {
-            transform: scale(1.2);
-            opacity: 1;
-        }
+    .logo-text {
+        font-family: 'Cinzel', serif;
+        letter-spacing: 4px;
+        background: linear-gradient(to right, #b9910b, #8d7906, #f9e79f);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 0 0 30px rgba(212, 175, 55, 0.3);
+    }
+    .card-hover {
+        transition: all 0.4s ease;
+        cursor: pointer;
+    }
+    .card-hover:hover {
+        transform: translateY(-12px);
+        box-shadow: 0 20px 40px rgba(212, 175, 55, 0.15);
+    }
+    .social-icon:hover {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+body {
+    background-color: #fafafa;
+    color: #111111; /* readable text on a white background */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.topbar {
+    background-color: #000;           /* bg-black */
+    padding: 0.75rem 1.5rem;         /* py-3 px-6 */
+    font-size: 0.875rem;             /* text-sm */
+    border-bottom: 1px solid #1f2937;/* border-b border-gray-800 */
+    color: #ffffff;                  /* ensure readable text on black */
+}
+/*
+ * Combined Social Icon Styling
+ * Targets the SVG within the anchor with the class 'social-icon'
+ */
+
+.social-icon svg {
+    /* Set a consistent size for all icons (e.g., 24px x 24px) */
+    width: 24px;
+    height: 24px;
+
+    /* Set a default color for all icons */
+    /* Use 'fill' because the SVGs use fill="currentColor" */
+    color: #ffffff; /* A neutral gray color */
+
+    /* Apply a transition for smooth color changes */
+    transition: color 200ms ease-in-out;
+}
+
+/* Define the hover state for all icons */
+.social-icon:hover svg {
+    /* Set the color on hover */
+    color: #d4af37; /* A common blue color */
+}
+
+

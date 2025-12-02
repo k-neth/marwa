@@ -8,10 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-white text-white min-h-screen flex flex-col">
+<body class="body">
 
     <!-- Top Bar -->
-    <div class="bg-black py-3 px-6 text-sm border-b border-gray-800">
+    <div class=topbar>
         <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
             <div class="flex items-center gap-8">
                 <a href="mailto:info@marwaempire.com" class="hover:text-amber-400 transition flex items-center gap-2">
@@ -34,25 +34,22 @@
             <!-- Social Icons in Topbar -->
             <div class="flex gap-5">
                 <a href="https://x.com/" target="_blank" class="opacity-100 hover:opacity-100 transition social-icon">
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    <svg fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
                 </a>
-                <a href="https://instagram.com/iam_marwa  " target="_blank" class="opacity-100 hover:opacity-100 transition social-icon">
-                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.746 1.688 4.849 4.85a13.92 13.92 0 0 1 .07 4.85c-.148 3.252-1.688 4.746-4.85 4.849a13.92 13.92 0 0 1-4.85.07c-3.252-.148-4.746-1.688-4.849-4.85a13.92 13.92 0 0 1-.07-4.85c.148-3.252 1.688-4.746 4.85-4.849A13.92 13.92 0 0 1 12 2.163zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.667.072 4.947.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.667-.014 4.947-.072 4.358-.2 6.78-2.618 6.98-6.98C23.986 15.667 24 15.259 24 12c0-3.259-.014-3.667-.072-4.947-.2-4.358-2.618-6.78-6.98-6.98C15.667.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
-                    </a>
+                <a href="https://instagram.com/iam_marwa" target="_blank" class="opacity-100 hover:opacity-100 transition social-icon">
+                    <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.746 1.688 4.849 4.85a13.92 13.92 0 0 1 .07 4.85c-.148 3.252-1.688 4.746-4.85 4.849a13.92 13.92 0 0 1-4.85.07c-3.252-.148-4.746-1.688-4.849-4.85a13.92 13.92 0 0 1-.07-4.85c.148-3.252 1.688-4.746 4.85-4.849A13.92 13.92 0 0 1 12 2.163zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.667.072 4.947.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.667-.014 4.947-.072 4.358-.2 6.78-2.618 6.98-6.98C23.986 15.667 24 15.259 24 12c0-3.259-.014-3.667-.072-4.947-.2-4.358-2.618-6.78-6.98-6.98C15.667.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+                </a>
                 <a href="https://www.facebook.com/iamMARWAofficial/" target="_blank" class="opacity-100 hover:opacity-100 transition social-icon">
-                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    <svg fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
                 </a>
                 <a href="http://www.youtube.com/c/iammarwa" target="_blank" class="opacity-100 hover:opacity-100 transition social-icon">
-                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.016 3.016 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                    <svg fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.016 3.016 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
                 </a>
                 <a href="https://tiktok.com/" target="_blank" class="opacity-100 hover:opacity-100 transition social-icon">
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19.58 6.79c-1.2-1.34-1.84-3.04-1.84-4.77V0h-3.64v16.42c0 1.52-1.24 2.76-2.76 2.76s-2.76-1.24-2.76-2.76 1.24-2.76 2.76-2.76c.36 0 .7.07 1.02.2V9.96c-.34-.04-.69-.06-1.04-.06-3.2 0-5.8 2.6-5.8 5.8s2.6 5.8 5.8 5.8c3.2 0 5.8-2.6 5.8-5.8V8.62c1.36 1.04 3.04 1.68 4.88 1.68V6.66c-1.36 0-2.56-.54-3.48-1.87z"/></svg>
+                    <svg fill="currentColor" viewBox="0 0 24 24"><path d="M19.58 6.79c-1.2-1.34-1.84-3.04-1.84-4.77V0h-3.64v16.42c0 1.52-1.24 2.76-2.76 2.76s-2.76-1.24-2.76-2.76 1.24-2.76 2.76-2.76c.36 0 .7.07 1.02.2V9.96c-.34-.04-.69-.06-1.04-.06-3.2 0-5.8 2.6-5.8 5.8s2.6 5.8 5.8 5.8c3.2 0 5.8-2.6 5.8-5.8V8.62c1.36 1.04 3.04 1.68 4.88 1.68V6.66c-1.36 0-2.56-.54-3.48-1.87z"/></svg>
                 </a>
-                <a href="https://wa.me/254700000000" target="_blank" class="opacity-100 hover:opacity-100 transition social-icon group">
-                    <svg class="w-5 h-5 text-[#25D366] hover:text-[#4beb8a] transition-colors duration-200" 
-                        fill="currentColor" 
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
+                <a href="https://wa.me/254700000000" target="_blank" class="opacity-100 hover:opacity-100 transition social-icon">
+                    <svg fill="currentColor" viewBox="0 0 24 24">
                         <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 5.845h-.004c-1.48 0-2.654-.315-3.529-1.004l-.253-.15-3.287.866.889-3.24-.209-.352c-.74-.967-1.123-2.195-1.123-3.405 0-3.518 2.871-6.38 6.404-6.38 1.693 0 3.288.661 4.483 1.858 1.195 1.197 1.858 2.79 1.858 4.482 0 3.533-2.871 6.385-6.404 6.385m6.947-11.81c-1.436-1.438-3.346-2.228-5.378-2.228-4.193 0-7.61 3.416-7.61 7.61 0 1.34.354 2.605 1.022 3.693l-1.085 3.956 4.056-1.063c1.058.613 2.254.963 3.527.963 4.193 0 7.61-3.416 7.61-7.61 0-2.032-.79-3.942-2.222-5.378"/>
                     </svg>
                 </a>
@@ -70,34 +67,7 @@
         </div>
     </header>
 
-    <section class="max-w-7xl mx-auto px-6 py-16">
-
-        <div class="max-w-3xl mx-auto text-center mb-12">
-            <h2 class="text-4xl md:text-5xl font-bold text-stone-950 tracking-wider">My Story</h2>
-            <div class="mx-auto mt-4 h-0.5 w-24 bg-amber-400 rounded"></div>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 items-center">
-            <!-- Left: 25% - Marwa's picture -->
-            <div class="md:col-span-1 flex justify-center md:justify-start">
-                <img src="images/marwa.jpg" alt="Marwa portrait" class="w-40 h-40 md:w-56 md:h-56 rounded-full object-cover border-4 border-amber-400 shadow-lg">
-            </div>
-
-            <!-- Right: 75% - Bio & profile -->
-            <div class="md:col-span-3 text-left">
-                
-                <p class="text-gray-400 mb-4">
-                    
-                    From documenting  travels with a simple camera to becoming one of the most influential digital storytellers.
-                    </p>
-                    <p class="text-gray-400 mb-6">Marwa's path weaves entrepreneurship, creativity and deep community commitment. His ventures cut across luxury safaris, Horse breeding, and philanthropic projects across education, health and community empowerment.
-                </p>
-                <p class="text-gray-400 mb-6">
-                    Passionate about sustainability and legacy, Marwa leads with vision and hands-on leadership — inspiring others to pursue excellence and impact.
-                </p>
-                <a href="journey.html" class="inline-block bg-amber-400 text-black px-5 py-2 rounded-md font-medium hover:bg-amber-300 transition">Read more</a>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- Styled Columns Grid -->
     <!-- Cards Section - Now with custom background image placeholders -->
@@ -190,17 +160,46 @@
     </section>
 
     <section class="max-w-7xl mx-auto px-6 py-16">
+
         <div class="max-w-3xl mx-auto text-center mb-12">
-            <h2 class="text-4xl md:text-5xl font-bold text-stone-950 tracking-wider">Partners</h2>
+            <h2 class="text-4xl md:text-4xl font-bold text-stone-950 tracking-wider">My Story</h2>
+            <div class="mx-auto mt-4 h-0.5 w-24 bg-amber-400 rounded"></div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 items-center">
+            <!-- Left: 25% - Marwa's picture -->
+            <div class="md:col-span-1 flex justify-center md:justify-start">
+                <img src="images/marwa.jpg" alt="Marwa portrait" class="w-40 h-40 md:w-56 md:h-56 rounded-full object-cover border-4 border-amber-400 shadow-lg">
+            </div>
+
+            <!-- Right: 75% - Bio & profile -->
+            <div class="md:col-span-3 text-left">
+                
+                <p class="text-black-400 mb-4">
+                    
+                    From documenting  travels with a simple camera to becoming one of the most influential digital storytellers.
+                    </p>
+                    <p class="text-black-400 mb-6">Marwa's path weaves entrepreneurship, creativity and deep community commitment. His ventures cut across luxury safaris, Horse breeding, and philanthropic projects across education, health and community empowerment.
+                </p>
+                <p class="text-black-400 mb-6">
+                    Passionate about sustainability and legacy, Marwa leads with vision and hands-on leadership — inspiring others to pursue excellence and impact.
+                </p>
+                <a href="journey.html" class="inline-block bg-amber-400 text-black px-5 py-2 rounded-md font-medium hover:bg-amber-300 transition">Read more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 py-16">
+        <div class="max-w-3xl mx-auto text-center mb-12">
+            <h2 class="text-4xl md:text-3xl font-bold text-stone-950 tracking-wider">Partners</h2>
             <div class="mx-auto mt-4 h-0.5 w-24 bg-amber-400 rounded"></div>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 items-center">
+        <div class="grid grid-cols-1 sm:grid-cols-4 gap-8 items-center">
             <!-- Ngong Race Course -->
-            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Ngong Race Course" class="flex justify-center">
+            <a href="https://www.instagram.com/deep_east_safaris/" target="_blank" rel="noopener noreferrer" aria-label="Deep East Safaris" class="flex justify-center">
                 <div class="w-full max-w-xs bg-gradient-to-br from-white-900 to-white border border-white-800 rounded-lg p-6 flex flex-col items-center gap-4 hover:scale-105 transform transition">
                     <div class="w-full flex items-center justify-center">
-                        <img src="images/download.jpg" alt="Deep East Safaris" class="max-h-16 object-contain">
+                        <img src="images/deepEast.jpg" alt="Deep East Safaris" class="max-h-16 object-contain">
                     </div>
                     <p class="text-gray-400 text-sm text-center">Deep East Safaris</p>
                 </div>
@@ -223,6 +222,17 @@
                         <img src="images/YouTube-Logo.jpg" alt="YouTube logo" class="max-h-16 object-contain">
                     </div>
                     <p class="text-gray-400 text-sm text-center">Marwa on YouTube</p>
+                </div>
+            </a>
+
+
+            <!-- POLO Kenya Partner -->
+            <a href="http://www.polokenya.com/" target="_blank" rel="noopener noreferrer" aria-label="Nairobi Polo Club" class="flex justify-center">
+                <div class="w-full max-w-xs bg-gradient-to-br from-white-900 to-white border border-white-800 rounded-lg p-6 flex flex-col items-center gap-4 hover:scale-105 transform transition">
+                    <div class="w-full flex items-center justify-center">
+                        <img src="images/nairobipolo.jpg" alt="YouTube logo" class="max-h-16 object-contain">
+                    </div>
+                    <p class="text-gray-400 text-sm text-center">Nairobi Polo Club</p>
                 </div>
             </a>
         </div>
@@ -248,10 +258,10 @@
             </a>
                     
                 </a>
-                    <a href="" class="hover:text-amber-400 transition">Privacy Policy</a>
-                    <a href="" class="hover:text-amber-400 transition">Terms of Service</a>
-                    <a href="" class="hover:text-amber-400 transition">Contact</a>
-                    <a href="mailto:info@marwaempire.com" class="hover:text-amber-400 transition">Email Us</a>
+                    <a href="" class="text-white hover:text-amber-400 transition">Privacy Policy</a>
+                    <a href="" class="text-white hover:text-amber-400 transition">Terms of Service</a>
+                    <a href="https://wa.me/254700000000" class="text-white hover:text-amber-400 transition">Contact</a>
+                    <a href="mailto:info@marwaempire.com" class="text-white hover:text-amber-400 transition">Email Us</a>
                    
                 </div>
 
